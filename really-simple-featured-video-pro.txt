@@ -1,9 +1,9 @@
 === Really Simple Featured Video Pro ===
 Contributors: jetixwp, lushkant
 Requires at least: 6.0
-Requires PHP: 7.4
-Tested up to: 6.5.4
-Stable tag: 1.3.0
+Requires PHP: 8.0
+Tested up to: 6.6.1
+Stable tag: 1.4.0
 Tags: featured, video, featured video, woocommerce, product-video, video embed, youtube, dailymotion, vimeo
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -32,6 +32,16 @@ You can get help by reaching out to me at https://github.com/JetixWP/really-simp
 
 
 == Changelog ==
+
+= 1.4.0 =
+- New: Add an option to Modify WooCommerce Default Gallery Video Thumbnail via settings
+- New: Add support for Avanam theme
+- New: Add support for Divi module Woo Product Images
+- New: Add Wellco theme support
+- Fix: (Flatsome Support) Fix Video thumbnails appearing at all products
+- Improvements: Compatibility with WordPress v6.6.1
+- Improvements: Updated translation file
+- Improvements: Other minor improvements
 
 = 1.3.0 =
 - New and improved Settings page UI
