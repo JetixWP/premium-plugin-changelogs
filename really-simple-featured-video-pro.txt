@@ -2,8 +2,8 @@
 Contributors: jetixwp, lushkant
 Requires at least: 6.0
 Requires PHP: 8.0
-Tested up to: 6.6.1
-Stable tag: 1.6.0
+Tested up to: 6.7
+Stable tag: 1.7.0
 Tags: featured, video, featured video, woocommerce, product-video, video embed, youtube, dailymotion, vimeo
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -32,6 +32,16 @@ You can get help by reaching out to me at https://github.com/JetixWP/really-simp
 
 
 == Changelog ==
+
+= 1.8.0 =
+- Improvement: Fix OceanWP conditional check
+- Improvement: Update Freemius to latest version
+- Improvement: Other minor changes
+
+= 1.7.0 =
+- New: Add support for Lay theme
+- Improvement: Updated translation file
+- Improvement: Other minor improvements
 
 = 1.6.0 =
 - New: Add support for Avada and Konte theme
