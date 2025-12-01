@@ -2,8 +2,8 @@
 Contributors: jetixwp, lushkant
 Requires at least: 6.0
 Requires PHP: 8.0
-Tested up to: 6.8.3
-Stable tag: 1.9.9
+Tested up to: 6.8
+Stable tag: 1.9.10
 Tags: featured, video, featured video, woocommerce, product-video, video embed, youtube, dailymotion, vimeo
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -32,6 +32,13 @@ You can get help by reaching out to me at https://github.com/JetixWP/really-simp
 
 
 == Changelog ==
+
+= 1.9.10 =
+- New: Brand update
+- Fix: Missing Freemius SDK files
+- Improvement: Switch to Composer loading for external libs
+- Improvement: Plugin load call priority
+- Improvement: Other minor changes
 
 = 1.9.9 =
 - New: Add support for Electro theme
