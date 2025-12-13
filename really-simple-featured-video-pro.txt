@@ -3,7 +3,7 @@ Contributors: jetixwp, lushkant
 Requires at least: 6.0
 Requires PHP: 8.0
 Tested up to: 6.8
-Stable tag: 1.9.10
+Stable tag: 1.9.11
 Tags: featured, video, featured video, woocommerce, product-video, video embed, youtube, dailymotion, vimeo
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -32,6 +32,12 @@ You can get help by reaching out to me at https://github.com/JetixWP/really-simp
 
 
 == Changelog ==
+
+= 1.9.11 =
+* New: PRO Plugin rollback feature at settings
+* Improvement: Uncode theme compatibility missing base CPT support
+* Improvement: Updated translation file
+* Improvement: Other minor changes
 
 = 1.9.10 =
 - New: Brand update
