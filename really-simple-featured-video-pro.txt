@@ -3,12 +3,12 @@ Contributors: jetixwp, lushkant
 Requires at least: 6.0
 Requires PHP: 8.0
 Tested up to: 6.9
-Stable tag: 1.9.14
+Stable tag: 1.10.0
 Tags: featured, video, featured video, woocommerce, product-video, video embed, youtube, dailymotion, vimeo
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
- Really Simple Featured Video Pro extends original RSFV plugin support for Featured video to WordPress posts, pages, WooCommerce Products and CPTs.
+Really Simple Featured Video Pro extends original RSFV plugin support for Featured video to WordPress posts, pages, WooCommerce Products and CPTs.
 
 == Description ==
 
@@ -32,6 +32,12 @@ You can get help by reaching out to me at https://github.com/JetixWP/really-simp
 
 
 == Changelog ==
+
+= 1.10.0 =
+* New: Added new Floating Video layout Story/Status like videos
+* New: Added CSS selectors option at Autoplay on Hover settings
+* Improvement: Update translation files
+* Improvement: Other minor changes
 
 = 1.9.14 =
 * Fix: Flatsome theme support for when no Woo gallery images
