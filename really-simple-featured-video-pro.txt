@@ -2,8 +2,8 @@
 Contributors: jetixwp, lushkant
 Requires at least: 6.0
 Requires PHP: 8.0
-Tested up to: 6.9
-Stable tag: 1.10.0
+Tested up to: 7.1
+Stable tag: 1.14.0
 Tags: featured, video, featured video, woocommerce, product-video, video embed, youtube, dailymotion, vimeo
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -32,6 +32,25 @@ You can get help by reaching out to me at https://github.com/JetixWP/really-simp
 
 
 == Changelog ==
+
+= 1.14.0 =
+* Fix: Rollback version GET parameter sanitization
+* Fix: Escaping in settings sidebar
+* Fix: Formatting in CIX Woo Gallery Slider compatibility
+* Fix: Sanitize custom aspect ratio CSS output
+* Improvement: Update Freemius SDK
+* Improvement: Other minor changes
+
+= 1.12.0 =
+* New: Adds Lodestar theme support
+* Improvement: Update translation files
+* Improvement: Other minor changes
+
+= 1.11.0 =
+* Fix: Divi compatibility settings missing in some cases
+* Fix: Fix Woo video order change at product gallery in Divi Builder compatibility
+* Improvement: Add conditional Divi 5 compatibility in respective theme engine
+* Improvement: Other minor changes
 
 = 1.10.0 =
 * New: Added new Floating Video layout Story/Status like videos
