@@ -2,23 +2,22 @@
 Contributors: jetixwp, lushkant
 Requires at least: 6.0
 Requires PHP: 8.0
-Tested up to: 6.9
-Stable tag: 1.1.4
+Tested up to: 7.1
+Stable tag: 1.2.0
 Tags: featured, audio, podcasts
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
- Really Simple Featured Audio Pro extends original RSFA plugin support for Featured audio and podcasts to WordPress posts, pages, WooCommerce Products and CPTs.
+Really Simple Featured Audio Pro extends original RSFA plugin support for Featured audio and podcasts to WordPress posts, pages, WooCommerce Products and CPTs.
 
 == Description ==
 
 == Installation ==
 
-This section describes how to install the plugin and get it working. e.g.
-
-1. Upload the plugin files to the `/wp-content/plugins/rsfa-pro` directory, or install the plugin through the Plugins >> Add new screen directly.
-2. Activate the plugin through the 'Plugins' screen in WordPress.
-3. Head to '[Pro] Really Simple Featured Audio' page from WordPress sidebar menu.
+1. Make sure the free Really Simple Featured Audio plugin is installed and active.
+2. Upload the plugin files to the `/wp-content/plugins/rsfa-pro` directory, or install the plugin through the Plugins >> Add New screen.
+3. Activate the plugin through the 'Plugins' screen in WordPress.
+4. Head to JetixWP >> Featured Audio in the WordPress admin menu.
 
 == Frequently Asked Questions ==
 
@@ -32,6 +31,21 @@ You can get help by reaching out to me at https://github.com/JetixWP/really-simp
 
 
 == Changelog ==
+
+= 1.2.0 =
+* New: Full audio analytics: keep history up to all time, listen time, 25/50/75/100% progress, completion rate, date range and compare, CSV export
+* New: Optional country, device and referring site counts for analytics (no IP addresses or full URLs stored)
+* New: Play on hover extras: screen sizes, mobile breakpoint, hover delay, reduced-motion and keyboard focus options, and larger hover areas by CSS selector
+* New: Player appearance settings at Global tab, pick the player theme (automatic, light or dark) and an accent color
+* New: Theme compatibility engines for OceanWP, Jupiter X, Flatsome, Wellco, Avanam, Avada, Konte, Lay, Uncode, Bravada, Electro and Lodestar (needs Really Simple Featured Audio 1.6.0 or later)
+* New: Codeixer Product Gallery Slider support for audio order and variation galleries
+* New: Divi Builder setting to show featured audio in the WooCommerce product gallery
+* Fix: Divi Builder engine placed the audio at the wrong gallery position
+* Fix: Custom default gallery thumbnail didn't apply with newer free plugin versions
+* Improvement: New features in this release need Really Simple Featured Audio 1.6.0 or later and switch themselves off on older versions
+* Improvement: Safer input handling for plugin rollback
+* Improvement: Freemius SDK updated to 2.13.4
+* Improvement: Updated translation file
 
 = 1.1.4 =
 * New: PRO Plugin rollback feature at settings
