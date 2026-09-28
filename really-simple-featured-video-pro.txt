@@ -3,14 +3,33 @@ Contributors: jetixwp, lushkant
 Requires at least: 6.0
 Requires PHP: 8.0
 Tested up to: 7.1
-Stable tag: 1.20.0
+Stable tag: 1.40.0
 Tags: featured, video, featured video, woocommerce, product-video, video embed, youtube, dailymotion, vimeo
-License: GPLv2
+License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Really Simple Featured Video Pro extends original RSFV plugin support for Featured video to WordPress posts, pages, WooCommerce Products and CPTs.
 
 == Description ==
+
+= Video Studio PRO =
+
+Video Studio auto generates featured videos from templates. PRO needs the free plugin with Video Studio, and adds:
+
+* Auto generate videos from 20 more templates for all kinds of sites (free has 7):
+  * Shops: Sale, Coupon code, Product showcase
+  * Blogs and news: Top list, Podcast episode
+  * Food: Recipe, Menu board
+  * Business: Visit us, Property listing, Course, We're hiring, App feature
+  * Photos: Destination, Before and after, Portfolio grid, Lower third
+  * Events and brand: Event, Countdown, Stats counter, Logo reveal
+* More sizes: 9:16 (Stories, Reels, Shorts), 4:5, 1080p at 60 fps and 4K (free has 16:9 and 1:1)
+* Music: pick a track from the Media Library, with volume, fade in and out, start point and repeat
+* Brand kit: save colors, a font and a logo once, and new videos start with them
+* Big uploads: videos larger than your host's upload limit are sent in pieces
+* Auto generate videos in bulk: tick entries on the Video Studio page and use Make videos to create a video for each one, filled from it
+* Platypi, Beiruti and Fira Code fonts (SIL Open Font License 1.1), see assets/studio/fonts/LICENSE.txt
+* Google Fonts: every Google Fonts family with Latin letters can be picked in templates. The first time one is used, your site downloads its font files from Google Fonts and keeps them in uploads/rsfv-studio-fonts; after that they load from your site. Fonts are only used while making the video (the text becomes part of the video), so visitors never load them
 
 == Installation ==
 
@@ -32,6 +51,17 @@ You can get help by reaching out to me at https://github.com/JetixWP/really-simp
 
 
 == Changelog ==
+
+= 1.40.0 =
+* New: Video Studio PRO auto generates videos from 20 more templates for shops, blogs, food, real estate, courses, local businesses, events and portfolios
+* New: 9:16 and 4:5 sizes, 1080p at 60 fps and 4K
+* New: Music with volume, fade in and out, start point and repeat
+* New: Brand kit with your colors, font and logo, used by new videos
+* New: Every Google Fonts family, downloaded once and then served from your site
+* New: Make videos for many entries at once from the Video Studio page
+* New: Videos larger than your host's upload limit are uploaded in pieces
+* Improvement: Video Studio extras need free RSFV 1.0.0. With an older version a short notice on the Plugins screen says so, and everything else in PRO keeps working
+* Improvement: License is now GPLv2 or later
 
 = 1.20.0 =
 * New: Extended Video Analytics — longer history, watch time, completion funnel, and CSV export
